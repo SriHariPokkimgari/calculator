@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 body {
+  background: #4e735d;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -13,13 +14,13 @@ body {
 .calculator {
   font-family: Arial, sans-serif;
   background-color: rgb(24, 23, 23);
-  border-radius: 40px;
-  max-width: 450px;
+  border-radius: 20px;
+
   overflow: hidden;
 }
 #display {
-  width: 450px;
-  padding: 20px;
+  width: 460px;
+  padding: 10px;
   font-size: 4rem;
   text-align: left;
   border: none;
@@ -29,12 +30,12 @@ body {
 #keys {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 15px;
-  padding: 25px 3px;
+  gap: 20px;
+  padding: 25px 20px;
 }
 button {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border-radius: 50px;
   border: none;
   background-color: rgb(119, 125, 129);
